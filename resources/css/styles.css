@@ -1,53 +1,41 @@
 @font-face {
-    font-family: 'Sans';
-    src: url("/resources/fonts/OpenSans_Condensed-Bold.ttf");
-} 
+    font-family: 'Cine';
+    src: url("/resources/fonts/Oswald-Bold.ttf");
+}
 *{
     box-sizing: border-box;
 }
 body {
-    background-color: #f4f4f4;
-    font-family: 'Sans', sans-serif;
+    font-family: 'Cine', sans-serif;
+    background-color: #e8f0fe;
 }
 article{
-    width: 300px;
-    margin: 50px auto;
-    padding: 20px;
     background-color: #ffffff;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+    width: 320px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 10px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
 }
-img {
+article:hover {
+    background-color: #ddeeff;
+}
+img{
     width: 100%;
-    height: auto;
-    border-radius: 6px;
+    border-radius: 8px;
 }
-h2{
-    color: #1a237e;
-    margin-bottom: 10px;
+h2 {
+    color: #2e3d59;
 }
 p{
-    color: #424242;
-    font-size: 16px;
-    margin: 8px 0;
+    color: #555;
 }
-button {
-    background-color: #0d47a1;
-    color: #ffffff;
-    border: none;
-    border-radius: 6px;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-button:hover {
-    background-color: #002171;
-}
-header {
+header{
+    background-color: #555;
+    color: #e8f0fe;
+    padding: 30px;
     text-align: center;
+    margin: 0%;
+    width: 100%;
 }
-
